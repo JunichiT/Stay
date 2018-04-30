@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036611D92096E07C00549B38 /* StayTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611D82096E07C00549B38 /* StayTimer.swift */; };
 		037EB7D42096D9530012774C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 037EB7D22096D9530012774C /* Info.plist */; };
-		037EB7D52096D9530012774C /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 037EB7D32096D9530012774C /* Stay.h */; };
+		037EB7D52096D9530012774C /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 037EB7D32096D9530012774C /* Stay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036611D82096E07C00549B38 /* StayTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StayTimer.swift; path = Source/StayTimer.swift; sourceTree = "<group>"; };
 		037EB7C22096D7B00012774C /* Stay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		037EB7D22096D9530012774C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		037EB7D32096D9530012774C /* Stay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stay.h; path = Source/Stay.h; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				037EB7D22096D9530012774C /* Info.plist */,
 				037EB7D32096D9530012774C /* Stay.h */,
+				036611D82096E07C00549B38 /* StayTimer.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					037EB7C12096D7B00012774C = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036611D92096E07C00549B38 /* StayTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		037EB7CB2096D7B00012774C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.junichit.Stay;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		037EB7CC2096D7B00012774C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
