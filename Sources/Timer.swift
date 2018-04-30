@@ -1,7 +1,7 @@
 import Foundation
 
-class ScreenVisitMeasureTimer: NSObject {
-    static let shared = ScreenVisitMeasureTimer()
+class ScreenStayMeasureTimer: NSObject {
+    static let shared = ScreenStayMeasureTimer()
     private var startedAt: Date?
 
     func startTimer() {

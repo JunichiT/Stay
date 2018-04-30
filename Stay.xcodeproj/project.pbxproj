@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036611D92096E07C00549B38 /* StayTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611D82096E07C00549B38 /* StayTimer.swift */; };
-		036611DD20976CCF00549B38 /* LifecycleHookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */; };
-		037EB7D42096D9530012774C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 037EB7D22096D9530012774C /* Info.plist */; };
-		037EB7D52096D9530012774C /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 037EB7D32096D9530012774C /* Stay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036611E7209785D600549B38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 036611E2209785D500549B38 /* Info.plist */; };
+		036611E8209785D600549B38 /* LifecycleHookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E3209785D500549B38 /* LifecycleHookViewController.swift */; };
+		036611E9209785D600549B38 /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 036611E4209785D500549B38 /* Stay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036611EA209785D600549B38 /* ScreenStayMeasureable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E5209785D600549B38 /* ScreenStayMeasureable.swift */; };
+		036611EB209785D600549B38 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E6209785D600549B38 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		036611D82096E07C00549B38 /* StayTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StayTimer.swift; path = Source/StayTimer.swift; sourceTree = "<group>"; };
-		036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LifecycleHookViewController.swift; path = Source/LifecycleHookViewController.swift; sourceTree = "<group>"; };
+		036611E2209785D500549B38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		036611E3209785D500549B38 /* LifecycleHookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LifecycleHookViewController.swift; path = Sources/LifecycleHookViewController.swift; sourceTree = "<group>"; };
+		036611E4209785D500549B38 /* Stay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stay.h; path = Sources/Stay.h; sourceTree = "<group>"; };
+		036611E5209785D600549B38 /* ScreenStayMeasureable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenStayMeasureable.swift; path = Sources/ScreenStayMeasureable.swift; sourceTree = "<group>"; };
+		036611E6209785D600549B38 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = Sources/Timer.swift; sourceTree = "<group>"; };
 		037EB7C22096D7B00012774C /* Stay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		037EB7D22096D9530012774C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		037EB7D32096D9530012774C /* Stay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stay.h; path = Source/Stay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		037EB7D12096D8340012774C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				037EB7D22096D9530012774C /* Info.plist */,
-				037EB7D32096D9530012774C /* Stay.h */,
-				036611D82096E07C00549B38 /* StayTimer.swift */,
-				036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */,
+				036611E2209785D500549B38 /* Info.plist */,
+				036611E3209785D500549B38 /* LifecycleHookViewController.swift */,
+				036611E5209785D600549B38 /* ScreenStayMeasureable.swift */,
+				036611E4209785D500549B38 /* Stay.h */,
+				036611E6209785D600549B38 /* Timer.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -66,7 +69,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037EB7D52096D9530012774C /* Stay.h in Headers */,
+				036611E9209785D600549B38 /* Stay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037EB7D42096D9530012774C /* Info.plist in Resources */,
+				036611E7209785D600549B38 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036611DD20976CCF00549B38 /* LifecycleHookViewController.swift in Sources */,
-				036611D92096E07C00549B38 /* StayTimer.swift in Sources */,
+				036611EB209785D600549B38 /* Timer.swift in Sources */,
+				036611E8209785D600549B38 /* LifecycleHookViewController.swift in Sources */,
+				036611EA209785D600549B38 /* ScreenStayMeasureable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +309,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
