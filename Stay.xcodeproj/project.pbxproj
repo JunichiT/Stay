@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		036611D92096E07C00549B38 /* StayTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611D82096E07C00549B38 /* StayTimer.swift */; };
+		036611DD20976CCF00549B38 /* LifecycleHookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */; };
 		037EB7D42096D9530012774C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 037EB7D22096D9530012774C /* Info.plist */; };
 		037EB7D52096D9530012774C /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 037EB7D32096D9530012774C /* Stay.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		036611D82096E07C00549B38 /* StayTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StayTimer.swift; path = Source/StayTimer.swift; sourceTree = "<group>"; };
+		036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LifecycleHookViewController.swift; path = Source/LifecycleHookViewController.swift; sourceTree = "<group>"; };
 		037EB7C22096D7B00012774C /* Stay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		037EB7D22096D9530012774C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		037EB7D32096D9530012774C /* Stay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stay.h; path = Source/Stay.h; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 				037EB7D22096D9530012774C /* Info.plist */,
 				037EB7D32096D9530012774C /* Stay.h */,
 				036611D82096E07C00549B38 /* StayTimer.swift */,
+				036611DC20976CCF00549B38 /* LifecycleHookViewController.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036611DD20976CCF00549B38 /* LifecycleHookViewController.swift in Sources */,
 				036611D92096E07C00549B38 /* StayTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
