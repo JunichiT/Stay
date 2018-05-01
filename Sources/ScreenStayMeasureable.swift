@@ -1,7 +1,7 @@
 public protocol ScreenStayMeasureable: class {
     var screenName: String { get }
     var extraScreenMeasurementInfo: [String : Any] { get }
-    func didScreenStayTimerFinishMeasuring(screenStayDuration: Int64)
+    func didScreenStayTimerFinishMeasuring(screenStayDuration: TimeInterval)
 }
 
 public extension ScreenStayMeasureable where Self: UIViewController {
@@ -52,7 +52,7 @@ public extension ScreenStayMeasureable where Self: UIViewController {
         if !(isViewLoaded && view.window != nil) { return }
         let screenStayDuration = ScreenStayMeasureTimer.shared.stopTimer()
         if let screenStayDuration = screenStayDuration {
-            didScreenStayTimerFinishMeasuring(screenStayDuration: Int64(screenStayDuration))
+            didScreenStayTimerFinishMeasuring(screenStayDuration: screenStayDuration)
         }
     }
 }
