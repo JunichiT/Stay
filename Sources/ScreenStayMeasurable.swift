@@ -1,10 +1,10 @@
-public protocol ScreenStayMeasureable: class {
+public protocol ScreenStayMeasurable: class {
     var screenName: String { get }
     var extraScreenMeasurementInfo: [String : Any] { get }
     func didScreenStayTimerFinishMeasuring(screenStayDuration: TimeInterval)
 }
 
-public extension ScreenStayMeasureable where Self: UIViewController {
+public extension ScreenStayMeasurable where Self: UIViewController {
     var extraScreenMeasurementInfo: [String : Any] { return [:] }
 
     private func prepareLifecycleHookViewController() {

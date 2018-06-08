@@ -10,7 +10,7 @@
 		036611E7209785D600549B38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 036611E2209785D500549B38 /* Info.plist */; };
 		036611E8209785D600549B38 /* LifecycleHookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E3209785D500549B38 /* LifecycleHookViewController.swift */; };
 		036611E9209785D600549B38 /* Stay.h in Headers */ = {isa = PBXBuildFile; fileRef = 036611E4209785D500549B38 /* Stay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		036611EA209785D600549B38 /* ScreenStayMeasureable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E5209785D600549B38 /* ScreenStayMeasureable.swift */; };
+		036611EA209785D600549B38 /* ScreenStayMeasurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E5209785D600549B38 /* ScreenStayMeasurable.swift */; };
 		036611EB209785D600549B38 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036611E6209785D600549B38 /* Timer.swift */; };
 		036611EF2097873400549B38 /* Stay.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 036611ED2097873400549B38 /* Stay.podspec */; };
 /* End PBXBuildFile section */
@@ -19,7 +19,7 @@
 		036611E2209785D500549B38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
 		036611E3209785D500549B38 /* LifecycleHookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LifecycleHookViewController.swift; path = Sources/LifecycleHookViewController.swift; sourceTree = "<group>"; };
 		036611E4209785D500549B38 /* Stay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stay.h; path = Sources/Stay.h; sourceTree = "<group>"; };
-		036611E5209785D600549B38 /* ScreenStayMeasureable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenStayMeasureable.swift; path = Sources/ScreenStayMeasureable.swift; sourceTree = "<group>"; };
+		036611E5209785D600549B38 /* ScreenStayMeasurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenStayMeasurable.swift; path = Sources/ScreenStayMeasurable.swift; sourceTree = "<group>"; };
 		036611E6209785D600549B38 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = Sources/Timer.swift; sourceTree = "<group>"; };
 		036611ED2097873400549B38 /* Stay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Stay.podspec; sourceTree = "<group>"; };
 		037EB7C22096D7B00012774C /* Stay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +58,7 @@
 			children = (
 				036611E2209785D500549B38 /* Info.plist */,
 				036611E3209785D500549B38 /* LifecycleHookViewController.swift */,
-				036611E5209785D600549B38 /* ScreenStayMeasureable.swift */,
+				036611E5209785D600549B38 /* ScreenStayMeasurable.swift */,
 				036611E4209785D500549B38 /* Stay.h */,
 				036611E6209785D600549B38 /* Timer.swift */,
 			);
@@ -148,7 +148,7 @@
 			files = (
 				036611EB209785D600549B38 /* Timer.swift in Sources */,
 				036611E8209785D600549B38 /* LifecycleHookViewController.swift in Sources */,
-				036611EA209785D600549B38 /* ScreenStayMeasureable.swift in Sources */,
+				036611EA209785D600549B38 /* ScreenStayMeasurable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
